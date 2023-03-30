@@ -2,13 +2,12 @@
 
 ## Settings for all queries: 
 
-authorFollowers:[100 TO 100000] AND language:en AND NOT engagementType:RETWEET AND country:GBR
+authorFollowers:[100 TO 100000] AND language:en AND NOT engagementType:RETWEET AND country:GBR AND (LIWC search terms)
 
-Comments on how I edited the LIWC dictionaries to match the Brandwatch query: 
+The LIWC terms are not uploaded here because LIWC is proprietary. Yet, for 17,95 Euro you can get a 30-day Licence for academic research.  https://www.liwc.app/buy
+
+Adapting the LIWC dictionaries to match the Brandwatch query requirements: 
 - only double quotation marks work in Brandwatch
-
-## Special terms
-
 - Terms with asterisk and more than one word: cannot simply be put into quotation marks. "piss* me off" becomes (piss* NEAR/1 off)
 - similar: (bad NEAR/1 temper*)
 - Terms with and without hyphen: self-loathing and self-loathing: (self NEAR/1 loath*) matches with and without hyphen
@@ -16,7 +15,7 @@ Comments on how I edited the LIWC dictionaries to match the Brandwatch query:
 
 Query instructions: https://www.brandwatch.com/blog/ultimate-guide-to-query-building-operators/
 
-# Numbers of monitors on Brandwatch: 
+# IDs of monitors on Brandwatch: 
 UK base:  2001333247
 UK sadness  2001637764
 UK positive 2001637850
