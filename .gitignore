@@ -2,3 +2,11 @@
 .Rhistory
 .RData
 .Ruserdata
+.Rproj
+
+./Brandwatch_queries/english2022_emo_anger_final.txt
+./Brandwatch_queries/english2022_emo_anx_final.txt
+./Brandwatch_queries/english2022_emo_pos_final.txt
+./Brandwatch_queries/english2022_emo_sad_final.txt
+./Brandwatch_queries/english2022_prosocial_final.txt
+

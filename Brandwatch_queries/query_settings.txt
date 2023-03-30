@@ -1,0 +1,29 @@
+# Read me Brandwatch queries
+
+## Settings for all queries: 
+
+authorFollowers:[100 TO 100000] AND language:en AND NOT engagementType:RETWEET AND country:GBR
+
+Comments on how I edited the LIWC dictionaries to match the Brandwatch query: 
+- only double quotation marks work in Brandwatch
+
+## Special terms
+
+- Terms with asterisk and more than one word: cannot simply be put into quotation marks. "piss* me off" becomes (piss* NEAR/1 off)
+- similar: (bad NEAR/1 temper*)
+- Terms with and without hyphen: self-loathing and self-loathing: (self NEAR/1 loath*) matches with and without hyphen
+- Terms with 3 words: (piss* NEAR/1 (me NEAR/1 off)) or (piss* NEAR/1 "me off")
+
+Query instructions: https://www.brandwatch.com/blog/ultimate-guide-to-query-building-operators/
+
+# Numbers of monitors on Brandwatch: 
+UK base:  2001333247
+UK sadness  2001637764
+UK positive 2001637850
+UK anxiety  2001637729
+UK anger     2001616857 
+UK prosocial 2001637837
+
+# Exclusion terms for the dictionaries
+- None for anxiety, anger, sadness, prosocial
+- Positive emotions: We checked whether we should exclude these positive terms based on Jaidka 2019: good, lol, love, better, well, like. Yet, except for the word "good", they are not included in LIWC 2022 version anymore. LIWC has been adapted based on this earlier research, and we decided to use the 2022 version without any exclusion terms. 
