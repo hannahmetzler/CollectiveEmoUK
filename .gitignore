@@ -4,12 +4,12 @@
 .Ruserdata
 .Rproj
 
-.Brandwatch_queries/english2022_emo_anger_final.txt
-.Brandwatch_queries/english2022_emo_anx_final.txt
-.Brandwatch_queries/english2022_emo_pos_final.txt
-.Brandwatch_queries/english2022_emo_sad_final.txt
-.Brandwatch_queries/english2022_prosocial_final.txt
+Brandwatch_queries/english2022_emo_anger_final.txt
+Brandwatch_queries/english2022_emo_anx_final.txt
+Brandwatch_queries/english2022_emo_pos_final.txt
+Brandwatch_queries/english2022_emo_sad_final.txt
+Brandwatch_queries/english2022_prosocial_final.txt
 
 # because it contains bearer token, already uploaded without the token: 
-.code/Brandwatch-DownloadVolumeHourly.sh
+code/Brandwatch-DownloadVolumeHourly.sh
 
